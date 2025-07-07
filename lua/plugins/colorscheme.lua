@@ -7,13 +7,6 @@ return {
   { "nyoom-engineering/oxocarbon.nvim", name = "oxocarbon" },
   { "diegoulloao/neofusion.nvim", name = "neofusion" },
   { "EdenEast/nightfox.nvim", name = "carbonfox" },
-  { "flazz/vim-colorschemes", name = "hemisu" },
-  { "flazz/vim-colorschemes", name = "argonaut" },
-  { "flazz/vim-colorschemes", name = "badwolf" },
-  { "flazz/vim-colorschemes", name = "znake" },
-  { "flazz/vim-colorschemes", name = "less" },
-  { "flazz/vim-colorschemes", name = "oceanblack" },
-  { "flazz/vim-colorschemes", name = "ayu" },
   { "srt0/everblush.nvim", name = "codescope" },
   { "kemiller/vim-ir_black", name = "ir_black" },
 }
