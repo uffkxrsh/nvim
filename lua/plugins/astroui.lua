@@ -16,12 +16,18 @@ return {
     colorscheme = "rose-pine-main",
     -- Customize highlight groups to fine-tune the appearance of different UI elements.
     -- This allows you to override the default colors of any colorscheme.
+
+    winblend = 20, -- 0 = opaque, 100 = fully transparent; 20 ≈ 80% opacity
+    pumblend = 0,
+
     highlights = {
       -- The 'init' table contains highlight overrides that apply to all themes.
       -- This is useful for setting a consistent style across different colorschemes.
       init = {
         -- Example: Uncomment the following line to set the background of normal text to black in all themes.
         -- Normal = { bg = "#000000" },
+        Normal = { bg = "none" },
+        NormalFloat = { bg = "none" },
       },
       -- You can also create tables for specific themes to apply overrides only when that theme is active.
       -- For example, the 'astrodark' table here would only apply to the 'astrodark' theme.
