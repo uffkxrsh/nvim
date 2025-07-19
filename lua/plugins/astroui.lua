@@ -17,7 +17,7 @@ return {
     -- Customize highlight groups to fine-tune the appearance of different UI elements.
     -- This allows you to override the default colors of any colorscheme.
 
-    winblend = 20, -- 0 = opaque, 100 = fully transparent; 20 ≈ 80% opacity
+    winblend = 10, -- 0 = opaque, 100 = fully transparent; 20 ≈ 80% opacity
     pumblend = 0,
 
     highlights = {
