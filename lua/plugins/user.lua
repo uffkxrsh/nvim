@@ -53,10 +53,10 @@ return {
       luasnip.filetype_extend("javascript", { "javascriptreact" })
     end,
   },
-
-  {
-    "nvim-telescope/telescope-fzf-native.nvim",
-  },
+  --
+  -- {
+  --   "nvim-telescope/telescope-fzf-native.nvim",
+  -- },
 
   {
     "windwp/nvim-autopairs",
@@ -88,22 +88,22 @@ return {
     end,
   },
 
-  {
-    "folke/noice.nvim",
-    event = "VeryLazy",
-    opts = {
-      -- add any options here
-    },
-    dependencies = {
-      -- if you lazy-load any plugin below, make sure to add proper `module="..."` entries
-      "MunifTanjim/nui.nvim",
-      -- OPTIONAL:
-      --   `nvim-notify` is only needed, if you want to use the notification view.
-      --   If not available, we use `mini` as the fallback
-      "rcarriga/nvim-notify",
-    },
-  },
-
+  -- {
+  --   "folke/noice.nvim",
+  --   event = "VeryLazy",
+  --   opts = {
+  --     -- add any options here
+  --   },
+  --   dependencies = {
+  --     -- if you lazy-load any plugin below, make sure to add proper `module="..."` entries
+  --     "MunifTanjim/nui.nvim",
+  --     -- OPTIONAL:
+  --     --   `nvim-notify` is only needed, if you want to use the notification view.
+  --     --   If not available, we use `mini` as the fallback
+  --     "rcarriga/nvim-notify",
+  --   },
+  -- },
+  --
   {
     "yetone/avante.nvim",
     -- if you want to build from source then do `make BUILD_FROM_SOURCE=true`

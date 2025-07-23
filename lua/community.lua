@@ -12,5 +12,13 @@ return {
   { import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.snippet.nvim-snippets" },
   { import = "astrocommunity.git.neogit" },
+  -- { import = "astrocommunity.recipes.vscode" },
+  -- { import = "astrocommunity.motion.mini-ai" },
+  { import = "astrocommunity.motion.mini-surround" },
+  -- { import = "astrocommunity.git.mini-diff" },
+  { import = "astrocommunity.utility.telescope-lazy-nvim" },
+  { import = "astrocommunity.utility.noice-nvim" },
+  -- { import = "astrocommunity.completion.copilot-cmp" },
+
   -- import/override with your plugins folder
 }
